@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+	height:1830px;
+}
+#main {
+	background-color:#194d30;
+	height:1450px;
+}
+.h1-act {
+	position: absolute;
+	top:3%;
+	left:37%;
+	margin-top:5px;
+	color:#800044;
+}
+.box {
+	width:1000px;
+	height:550px;
+	padding:15px;
+	position: absolute;
+	top:10%;
+	left:7%;
+	background-color:rgba(200, 200, 200, 0.8);
+	border-radius:5px;
+}
+.box1 {
+	width:1000px;
+	height:550px;
+	padding:15px;
+	position: absolute;
+	top:55%;
+	left:7%;
+	background-color:rgba(200, 200, 200, 0.8);
+	border-radius:5px;
+}
+.h2-act {
+	font-size:36px;
+	color:#194d30;
+	position: absolute;
+	top:1%;
+	left:35%;
+}
+.h2-act1 {
+	font-size:36px;
+	color:#194d30;
+	position: absolute;
+	top:1%;
+	left:35%;
+}
+.p-act {
+	font-size:15px;
+	text-align:justify;
+	text-indent: 50px;
+	color:FFF;
+	position: absolute;
+	top:15%;
+	left:3%;
+	padding-right:50px;
+}
+.p-act1 {
+	font-size:15px;
+	text-align:justify;
+	text-indent: 50px;
+	color:FFF;
+	position: absolute;
+	top:15%;
+	left:3%;
+	padding-right:50px;
+}
+.p-act2 {
+	font-size:15px;
+	text-align:justify;
+	text-indent: 50px;
+	color:FFF;
+	position: absolute;
+	top:75%;
+	left:3%;
+	padding-right:50px;
+}
+/* tabele*/
+#trening {
+    font-family:Open Sans;
+    border-collapse: collapse;
+    width: 950px;
+	position: absolute;
+	top:50%;
+	left:4%;
+}
+#trening td {
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+	background-color:rgba(204, 0, 102, 0.6);
+    color: white;
+}
+
+#trening td, #trening th {
+    border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#trening tr:nth-child(even){
+	background-color: rgb(46, 139, 87);
+}
+
+#trening tr:hover {
+    background-color: #123b24;
+}
+
+#trening th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+	background-color:#800044;
+    color: white;
+}
+#takmicenje {
+    font-family:Open Sans;
+    border-collapse: collapse;
+    width: 950px;
+	position: absolute;
+	top:37%;
+	left:4%;
+}
+#takmicenje td {
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+	background-color:rgba(204, 0, 102, 0.6);
+    color: white;
+}
+
+#takmicenje td, #takmicenje th {
+    border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#takmicenje tr:nth-child(even){
+	background-color: rgb(46, 139, 87);
+}
+
+#takmicenje tr:hover {
+    background-color: #123b24;
+}
+
+#takmicenje th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+	background-color:#800044;
+    color: white;
+}

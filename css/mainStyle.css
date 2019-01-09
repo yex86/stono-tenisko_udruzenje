@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+/* main deo */
+/* about sekcija */
+.about {
+	background-color:#C8C8C8;
+	height:550px;
+}
+.h1-abt {
+	position: absolute;
+	top:2%;
+	left:43%;
+	margin-top:5px;
+	color:/*#194d30;*/#800044;
+}
+.box1 {
+	width:250px;
+	height:350px;
+	padding:25px;
+	position: absolute;
+	top:7%;
+	right:70%;
+	margin-top:5px;
+	background-color:#194d30;
+	border-radius:5px;
+}
+.box2 {
+	width:250px;
+	height:350px;
+	padding:25px;
+	position: absolute;
+	top:7%;
+	left:38%;
+	margin-top:5px;
+	background-color:#194d30;
+	border-radius:5px;
+}
+.box3 {
+	width:250px;
+	height:350px;
+	padding:25px;
+	position: absolute;
+	top:7%;
+	left:70%;
+	margin-top:5px;
+	background-color:#194d30;
+	border-radius:5px;
+}
+.h2-abt1 {
+	padding:15px;
+	text-align:center;
+	position: absolute;
+	top:2%;
+	left:25%;
+}
+.h2-abt2 {
+	padding:15px;
+	text-align:center;
+	position: absolute;
+	top:2%;
+	left:15%;
+}
+.h2-abt3 {
+	padding:15px;
+	text-align:center;
+	position: absolute;
+	top:2%;
+	left:25%;
+}
+.p-abt {
+	text-align:left;
+	color:FFF;
+	position: absolute;
+	top:15%;
+	padding:25px 10px;
+}
+.btn-abt1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	background-color:FFF;
+    color:#194d30;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-abt1:hover {
+	background-color:#a6a6a6;
+    color:#194d30;
+}
+.btn-abt1 a {
+	text-decoration:none;
+	color:#194d30;
+}
+
+/* clan sekcija */
+.members {
+	background-color:#800044;
+	height:550px;
+}
+.h1-member {
+	position: absolute;
+	top:32%;
+	left:37%;
+	color:FFF;
+}
+.member-box1 {
+	width:1000px;
+	height:150px;
+	padding:15px;
+	position: absolute;
+	top:40%;
+	left:7%;
+	background-color:/*#CC0066;*/rgba(204, 0, 102, 0.6);
+	border-radius:5px;
+}
+.member-box2 {
+	width:1000px;
+	height:150px;
+	padding:15px;
+	position: absolute;
+	top:53%;
+	left:7%;
+	background-color:rgba(204, 0, 102, 0.6);
+	border-radius:5px;
+}
+.h2-member1 {
+	position: absolute;
+	top:0;
+	left:5%;
+	color:#123b24;
+}
+.p-member {
+	text-align:justify;
+	/*color:#123b24;*/
+	font-weight:400px;
+	color:FFF;
+	position: absolute;
+	top:15%;
+	padding:25px 15px;;
+}
+.btn-member {
+    position: absolute;
+    top: 80%;
+    left:85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	background-color:/*rgb(25, 77, 48);*/#123b24;
+    color:#FFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-member:hover {
+	background-color:rgb(46, 139, 87);
+    color:#FFF;
+}
+.btn-member a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+/* aktivnost sekcija */
+.activity {
+	background-image: url(img/gym.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:600px;
+}
+.h1-gym {
+	position: absolute;
+	top:68%;
+	left:38%;
+	margin-top:5px;
+	color:/*#800044;*/#194d30;
+}
+.gym-box1 {
+	width:500px;
+	height:350px;
+	padding:15px;
+	position: absolute;
+	top:73%;
+	right:52%;
+	margin-top:15px;
+	background-color:/*#C8C8C8;*/rgba(200, 200, 200, 0.8);
+	border-radius:5px;
+}
+.gym-box2 {
+	width:500px;
+	height:350px;
+	padding:15px;
+	position: absolute;
+	top:73%;
+	left:52%;
+	margin-top:15px;
+	background-color:rgba(200, 200, 200, 0.8);
+	border-radius:5px;
+}
+.h2-gym1 {
+	padding:15px;
+	text-align:center;
+	position: absolute;
+	top:2%;
+	left:25%;
+	color:#800044;
+}
+.h2-gym2 {
+	padding:15px;
+	text-align:center;
+	position: absolute;
+	top:2%;
+	left:25%;
+	color:#800044;
+}
+.p-gym {
+	text-align:left;
+	color:/*#194d30;*/#800044;
+	font-weight:600px;
+	position: absolute;
+	top:15%;
+	padding:25px 10px;;
+}
+.btn-gym {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	background-color: #800044;
+    color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-gym:hover {
+	background-color:#b3005f;
+    color: white;
+}
+.btn-gym a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+/* kontakt sekcija */
+.contact {
+	/*background-color:#F96;*/
+	/*background-color:#ffbf80;
+	background-color:#ffd9b3;*/
+	background-color:#ffcc99;
+	height:550px;
+}
+.h1-cont {
+	position: absolute;
+	top:100%;
+	left:40%;
+	margin-top:75px;
+	color:/*#194d30;*/#800044;
+}
+.cont-box {
+	background-color:/*#ffd9b3*/ rgb(255, 217, 179);
+	border-radius:5px;
+	width:500px;
+	height:350px;
+	position: absolute;
+	top:110%;
+	left:5%;
+}
+.cont-box1 {
+	background-color:/*#ffd9b3*/ rgb(255, 217, 179);
+	border-radius:5px;
+	width:500px;
+	height:350px;
+	position: absolute;
+	top:110%;
+	right:5%;
+}
+.p-cont, .p-cont1 {
+	font-size:16px;
+	font-weight:600px;
+	text-align:center;
+	color:#194d30;
+}
+.p-cont {
+	position:absolute;
+	top:10%;
+	left:15%;
+}
+.p-cont1 {
+	position:absolute;
+	top:25%;
+	left:15%;
+}
+.a-cont {
+	font-size:20px;
+	color:#194d30;
+	text-decoration:none;
+	position:absolute;
+	top:45%;
+	left:20%;*/
+}
+.a-cont1 {
+	font-size:20px;
+	color:#194d30;
+	text-decoration:none;
+	position:absolute;
+	top:58%;
+	left:20%;
+}
+.contact a:hover {
+	color:/*inherit;*/#800044;
+}
+/*forma*/
+input[type=text], select, textarea {
+    width: 50%;
+	margin-top:16px;
+	margin-left:17%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+}
+#fname, #lname, #subject {
+	background-color:rgba(46, 139, 87, 0.6);
+}
+label {
+	color: /*#123b24;*/#194d30;
+	margin:15px 35px;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #123b24;
+    color: #FFF;
+	margin-right:35px;
+	padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+input[type=submit]:hover {
+    background-color: rgb(46, 139, 87);
+}
+.container {
+	width: 50%;
+	align-content: center;
+    border-radius: 5px;
+    background-color: #e19d9d;
+    padding: 20px;
+}
+.col-25 {
+    float: left;
+    width: 5%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 95%;
+    margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other 
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/* dugme */
+.btn-cont {
+    position: absolute;
+    top: 85%;
+    right: 19%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	background-color:rgb(25, 77, 48);/*ista boja #194d30*/
+    color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-cont:hover {
+	background-color:rgb(46, 139, 87); /*#2e8b57*/
+	color: white;
+}
+.btn-cont a {
+	text-decoration:none;
+	color:#FFF;
+}
+
